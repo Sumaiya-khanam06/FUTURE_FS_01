@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumaiya Khanam | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Sumaiya <span>Khanam</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="section home">
+        <h1 class="fade-in">Welcome to My Portfolio</h1>
+        <p class="fade-in delay-1">"Crafting beautiful, meaningful, and modern digital experiences."</p>
+        <a href="#projects" class="btn fade-in delay-2">Explore My Work</a>
+    </section>
+
+   <section id="about" class="about section">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <h3 class="about-heading">Hi, I'm <span class="highlight">Sumaiya Khanam</span> 👩‍💻</h3>
+
+            <p class="about-text">
+                I am an enthusiastic Engineering student with a strong interest in web development, and modern digital innovation.
+                Passionate about building interactive, visually appealing, and user-friendly experiences, I enjoy transforming ideas into clean,
+                structured, and responsive web interfaces.
+            </p>
+
+            <p class="about-text">
+                I constantly try to learn new technologies, improve my logic-building skills, and work on real-world projects to sharpen my abilities.
+                My strengths include attention to detail, creativity, dedication, and a strong desire to grow as a developer.
+            </p>
+
+            <p class="about-text">
+                When I’m not coding, I love exploring new designs, learning about AI tools, reading about technology trends, and working on 
+                self-improvement. I believe in <span class="highlight">continuous learning</span> and always pushing myself toward becoming the
+                best version of myself.
+            </p>
+        </div> 
+    </div>
+</section>
+
+    <section id="skills" class="section skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Responsive Design</div>
+        <div class="skill-card">Full Stack Development</div>
+    </div>
+
+    <!-- Learning Boxes -->
+    <div class="learning-boxes">
+        <!-- Frontend Box -->
+        <div class="learning-box">
+            <h3>Frontend Learning</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3 / Flexbox / Grid</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React.js / Vue.js / Angular</li>
+                <li>Bootstrap / Tailwind CSS</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Basics</li>
+            </ul>
+        </div>
+
+        <!-- Backend Box -->
+        <div class="learning-box">
+            <h3>Backend Learning</h3>
+            <ul>
+                <li>Node.js / Express.js</li>
+                <li>Databases: MongoDB, MySQL, PostgreSQL</li>
+                <li>API Development / RESTful Services</li>
+                <li>Authentication & Authorization</li>
+                <li>Server-side Logic</li>
+                <li>Deployment / Cloud Basics</li>
+                <li>Problem Solving & Algorithms</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            
+            <!-- PROJECT 1 -->
+            <div class="project-card" data-project="p1">
+                <div class="img-box">
+                    <img src="images/learnova.jpg" alt="Learnova Landing Page">
+                </div>
+                <h3>Learnova - Responsive Landing Page</h3>
+                <button class="view-btn">View Details</button>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card" data-project="p2">
+                <div class="img-box">
+                    <img src="images/stopwatch.jpg" alt="Stopwatch App">
+                </div>
+                <h3>Stopwatch Web Application</h3>
+                <button class="view-btn">View Details</button>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card" data-project="p3">
+                <div class="img-box">
+                    <img src="images/AI health predictor pro.jpg" alt="AI Health Predictor">
+                </div>
+                <h3>AI Health Predictor Pro</h3>
+                <button class="view-btn">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+
+            <div class="modal-img-box">
+                <img id="modalImage" src="" alt="Project Screenshot">
+            </div>
+
+            <h2 id="modalTitle"></h2>
+            <p id="modalDesc"></p>
+            <a id="modalLink" class="modal-btn" href="#" target="_blank">Visit Project</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Email: <b>sumaiyakhanamsummy@gmail.com</b></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
